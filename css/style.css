@@ -1,0 +1,959 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#hero {
+    background: rgba(69, 58, 75, 0.48);
+    backdrop-filter: blur(6px);
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+
+
+}
+
+.navbar a {
+    font-size: 15px;
+    color: white;
+    margin-left: -210px;
+}
+
+.navbar div img {
+    margin-left: -230px;
+}
+
+.navbar0 {
+    position: fixed;
+    width: 100vh;
+}
+
+.navbar1 {
+    padding: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.hero1 {
+    background: url("../img/Rectangle 9.png") no-repeat bottom/cover;
+    min-height: 100vh;
+    padding-top: 150px;
+    position: absolute;
+    width: 100%;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 250px;
+}
+
+.hero button {
+
+    background: #4d97d2;
+    border-radius: 100px;
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+.hero button:hover {
+    background: transparent;
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block {
+    padding-top: 900px;
+    margin: 20px;
+}
+
+.block-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+
+.block-title h1 {
+    padding: 40px;
+}
+
+.block-title p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+
+.block-icon {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-icon1 {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.block-icon1 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.block-icon2 {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.block-icon2 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.block-icon3 {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.block-icon3 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+#youtube {
+    margin: 250px;
+}
+
+.youtube-video {
+    text-align: center;
+}
+
+#insta {
+    padding: 100px 0;
+}
+
+.insta h1 {
+    width: 335px;
+    height: 110px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+}
+
+.insta p {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.insta button {
+    margin-top: 25px;
+    width: 200px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    background: #2091F9;
+    border-radius: 85px;
+    border: #2091F9;
+}
+
+.insta button:hover {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+
+}
+
+.insta button:hover {
+    box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-360deg);
+    transition: .3s;
+}
+
+
+.insta-img {
+    margin-left: 530px;
+    margin-top: -350px;
+}
+
+#facebook {
+    margin: 200px;
+}
+
+.facebook {
+    margin-left: -100px;
+}
+
+.facebook-top {
+    margin: 30px 0;
+    text-align: center;
+    margin-left: 810px;
+    margin-top: -410px;
+
+}
+
+.flesh {
+    margin-left: -150px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+}
+
+.top {
+
+    width: 324px;
+    height: 110px;
+    padding: 30px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.drif {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
+
+.drif p {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    margin-left: -20px;
+}
+
+.drif-input input {
+    background: #FFFFFF;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 132px;
+    height: 28px;
+    margin-left: 860px;
+    margin-top: 30px;
+    color: #000;
+    padding: 0 10px;
+}
+
+.drif-input button {
+    width: 142px;
+    height: 48px;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    appearance: none;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    color: #2091F9;
+    margin: 0 15px;
+
+}
+
+.drif-input button:hover {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.world h1 {
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 40px;
+}
+
+.world p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin: 40px 0;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 180px;
+    height: 50px;
+    border: #2091F9;
+    cursor: pointer;
+    background: linear-gradient(20deg, lawngreen, #2091F9, lawngreen);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.56);
+
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom right, #0aff9b, #5ac5ff);
+    border: 0;
+    border-radius: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+#galery {
+    margin-top: 180px;
+}
+
+.galery h1 {
+    margin-left: 450px;
+    width: 281px;
+    height: 55px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 38px;
+}
+
+.galery img {
+    display: flex;
+    margin-left: 520px;
+    margin-top: 60px;
+}
+
+.galery p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 60px;
+}
+
+.negr h3 {
+    margin-left: 580px;
+    margin-top: -40px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+
+}
+
+.negr p {
+    margin-left: 100px;
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+
+.button {
+    margin-left: 520px;
+    width: 150px;
+    height: 30px;
+    border: #2091F9;
+    transition: .4s;
+    cursor: pointer;
+    background: #2091F9;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.button:hover {
+    background-color: #04f304;
+    border: 0;
+    border-radius: 56px;
+    color: red;
+    cursor: pointer;
+
+}
+
+
+#mouse {
+    margin-top: 100px;
+    width: 1515px;
+    height: 750px;
+    background: #252B42;
+}
+
+.mouse-none {
+    padding: 30px;
+    margin: 30px;
+}
+
+.mouse-none h1 {
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.mouse-none p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.mouse {
+    width: 300.35px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.mouse-mysh h1 {
+    margin: 8px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #252B42;
+}
+
+.mouse-mysh h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #374754;
+}
+
+.mouse-top h1 {
+    font-weight: 700;
+    font-size: 76px;
+    margin-left: -100px;
+    color: #252B42;
+
+}
+
+.mouse-gr h1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-left: -40px;
+    margin-top: -75px;
+
+
+}
+
+.mouse-gr p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #374754;
+    margin-left: 120px;
+
+}
+
+.mouse-mysh-two {
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    padding: 20px 0;
+}
+
+.mouse-mysh-two h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.mouse-mysh-two h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.mouse-mysh-two button {
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    border: #2091F9;
+    transition: .4s;
+    cursor: pointer;
+    background: #2091F9;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.mouse-mysh-two button:hover {
+    transition: .4s;
+    background-color: fuchsia;
+    border: 0;
+    border-radius: 56px;
+    color: #2091F9;
+    cursor: pointer;
+}
+
+.mouse-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mouse4 {
+    width: 335px;
+    height: 510px;
+    background: #2091F9;
+    border: 1px #DEDEDE;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.mouse-mysh h4 {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.mouse-mysh h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+
+.mouse-top1 h1 {
+    font-weight: 700;
+    font-size: 76px;
+    margin-left: -120px;
+    color: #FFFFFF;
+}
+
+.mouse1 h1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-left: -15px;
+    margin-top: -75px;
+}
+
+.mouse1 p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-left: 150px;
+}
+
+
+.mouse-mysh-two1 {
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.mouse-mysh-two1 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.mouse-mysh-two1 h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.mouse-mysh-two1 button {
+    margin-left: 85px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    border: #FFFFFF;
+    transition: .4s;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2091F9;
+}
+
+.mouse-mysh-two1 button:hover {
+    align-items: center;
+    background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+    border-radius: 42px;
+    box-shadow: rgba(100, 76, 173, 0.24) 0 2px 2px, rgba(179, 132, 201, 0.4) 0 8px 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.mouse-top2 h1 {
+    font-weight: 700;
+    font-size: 76px;
+    margin-left: -110px;
+    color: #252B42;
+}
+
+.mouse2 h1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-left: -15px;
+    margin-top: -75px;
+}
+
+.mouse2 p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #374754;
+    margin-left: 135px;
+}
+
+#google {
+    margin: 30px;
+    padding: 30px;
+}
+
+.google-het h1 {
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.google-het p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.google {
+    margin: 40px;
+    padding: 40px;
+    width: 353px;
+    height: 590px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+.google h1 {
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+.google-input {
+    width: 353px;
+    height: 45px;
+    background: #F5F5F5;
+    border: 1px solid;
+    border-radius: 40px
+}
+
+.google-input {
+    border: none;
+    color: black;
+    padding: 0 20px;
+}
+
+.google-input1 {
+    margin: 50px 0;
+
+    width: 353px;
+    height: 45px;
+    background: #F5F5F5;
+    border: 1px solid;
+    border-radius: 40px;
+    color: black;
+    padding: 0 20px;
+}
+
+.google-input1 {
+    border: none;
+}
+
+.google-input2 {
+    width: 353px;
+    height: 245px;
+    background: #F5F5F5;
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+
+
+}
+
+.google-input2 {
+    border: none;
+}
+
+.google-btn {
+    margin: 30px 0;
+    width: 125px;
+    height: 46px;
+    background: #2091F9;
+    border-radius: 35px;
+    border: none;
+}
+
+.google-btn{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.google-btn:hover{
+    background: #FFFFFF;
+    color: #2091F9;
+    border:2px solid #2091F9;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+.google-lol {
+    margin-left: 570px;
+    margin-top: -600px;
+    display: flex;
+}
+
+.google-icon p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+
+.google-icon2 p {
+    margin: 0 30px;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+}
+
+.google-icon3 p {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+}
+
+.google-now {
+    color: #4d97d2;
+    text-align: center;
+}
+
+.google-map {
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.google-brands {
+    color: #4d97d2;
+    margin-left: 550px;
+}
+
+#footer {
+    margin: 50px 0;
+    background: #252B42;
+    width: 1500px;
+    height: 400px;
+}
+
+.footer-het {
+    margin-left: 150px;
+    padding: 80px 0;
+}
+
+.footer-het h1 {
+
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+
+.footer-het p {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.footer-now {
+    display: flex;
+}
+
+.footer-block {
+    margin-left: 50px;
+}
+
+.footer-icon {
+    display: flex;
+    margin-left: 800px;
+    margin-top: -300px;
+    color: #FFFFFF;
+}
+
+.footer-icon p {
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.footer-icon3 {
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    margin-left: 800px;
+    color: #FFFFFF;
+}
+
+.footer-icon3 p {
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.footer-brands {
+    margin-left: 800px;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
